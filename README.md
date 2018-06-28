@@ -5,21 +5,21 @@ You need golang 1.11 beta1 or higher to run
 
 How can you play ?
 
-ensure go command is in your path ( $ go version )  
+ensure go command is in your path ( % go version )  
 checkout or clone this project to your computer  
 
 for Subversion  
-$ svn co https://github.com/sternix/wasm_exp.git wasm_exp  
-$ cd wasm_exp/trunk/quick_dirty  
-$ ./build.sh  
+% svn co https://github.com/sternix/wasm_exp.git wasm_exp  
+% cd wasm_exp/trunk/quick_dirty  
+% ./build.sh  
 
 for git  
-$ git clone https://github.com/sternix/wasm_exp.git  
-$ cd wasm_exp/quick_dirty  
-$ ./build.sh  
+% git clone https://github.com/sternix/wasm_exp.git  
+% cd wasm_exp/quick_dirty  
+% ./build.sh  
 
 then run http server with  
-$ ./server  
+% ./server  
 
 you need a browser which support Wasm (Firefox or Chrome is fine)  
 
