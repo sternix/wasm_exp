@@ -11,12 +11,12 @@ checkout or clone this project to your computer
 for Subversion  
 $ svn co https://github.com/sternix/wasm_exp.git wasm_exp  
 $ cd wasm_exp/trunk/quick_dirty  
-$ sh ./build.sh  
+$ ./build.sh  
 
 for git  
 $ git clone https://github.com/sternix/wasm_exp.git  
 $ cd wasm_exp/quick_dirty  
-$ sh ./build.sh  
+$ ./build.sh  
 
 then run http server with  
 $ ./server  
